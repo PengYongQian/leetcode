@@ -28,7 +28,6 @@ class Solution402 {
         if (num.length() == k) {
             return "0";
         }
-
         Stack<Character> stack = new Stack<>();
         StringBuilder stringBuilder = new StringBuilder();
         stack.push(num.charAt(0));
